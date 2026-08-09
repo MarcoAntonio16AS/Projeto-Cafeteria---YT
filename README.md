@@ -6,9 +6,9 @@ Este projeto não possui cunho divulgatório, mas sim, apenas uma disponibiliza�
 
 ---------------------
 |
-|  + **Introdução, Linguagens e Ferramentas utilizadas:**
-|  + **Objetivos por detrás:**
-|  + **Links da bibliografia utilizada para o desenvolvimento:**
+  + **Introdução, Linguagens e Ferramentas utilizadas:**
+  + **Objetivos por detrás:**
+  + **Links da bibliografia utilizada para o desenvolvimento:**
 |
 ---------------------
 
