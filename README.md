@@ -15,7 +15,6 @@ Este projeto não possui cunho divulgatório, mas sim, apenas uma disponibiliza�
 Agradeço a todos pela compreensão, e quaisquer comentários e críticas construtivas de onde posso melhorar, ou como, serão sempre muito bem vindas! Novamente, agradeço a compreensão e boa leitura à todos!
 
 ----------------------------------------------------------------------------------------------
-<br><br>
 
 ## <span style="color:Yellow">Introdução, Linguagens e Ferramentas utilizadas</span>
 
