@@ -1,6 +1,4 @@
-<div align="center">
-<h1>Site de Cafeteria - YouTube</h1>
-</div>
+<div align="center"><h1>Site de Cafeteria - YouTube</h1></div>
 
 Muito prazer, me chamo Marco Antônio e sou estudante de ADS, atualmente em meu terceiro semestre de graduação. Hoje trago e disponibilizo à todos vocês a realização e criação de um site de cafeteria! 
 
