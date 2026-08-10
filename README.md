@@ -8,7 +8,7 @@ Este projeto não possui cunho divulgatório, mas sim, apenas uma disponibiliza�
 
   + **Introdução, Linguagens e Ferramentas utilizadas:**
   + **Objetivos por detrás:**
-  + **Links da bibliografia utilizada para o desenvolvimento:**
+  + **Bibliografia Utilizada:**
 
 <br>
 Agradeço a todos pela compreensão, e quaisquer comentários e críticas construtivas de onde posso melhorar, ou como, serão sempre muito bem vindas! Novamente, agradeço a compreensão e boa leitura à todos!
