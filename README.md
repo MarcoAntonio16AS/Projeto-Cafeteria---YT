@@ -48,7 +48,6 @@ Importante destacar que este é um projeto guiado através de um vídeo no YouTu
 
 - [Vídeo Youtube](https://youtu.be/v1jVqO6dx9A?si=8dbFBtJBpMztOYrI)
 - [Guia de Formatação README.md ¹](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Guia de Formatação README.md ²](https://docs.document360.com/docs/pt/how-to-center-align-the-text-in-markdown)
-<br>
+- [Guia de Formatação README.md ²](https://docs.document360.com/docs/pt/how-to-center-align-the-text-in-markdown)<br>
 - [Site das imagens](https://ibb.co/album/8KjM76)
 - [Site para os icons](icons8.com)
