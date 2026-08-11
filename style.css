@@ -1,0 +1,28 @@
+/* Sessão destinada unicamente para o CSS da página. Cada elemento
+apresenta seu próprio CSS e etilo, mas é possível estabelecer
+configurações padrões à todos os elementos */
+/* --------------------------------------------------------------- */
+
+* {
+    margin: 0; /* Margem */
+    padding: 0; /* Preenchimento */
+    outline: 0; /* Linha abaixo de links */
+    border: none; /* Bordas */
+    text-decoration: none; /* Decoração de Texto */
+    text-transform: capitalize;
+    /*Capitalize = Maiúscula seguida de minúsculas*/
+    transition: 0.2 linear; 
+    /*Efeito de transição na hora de passar o mouve sobre os icons*/
+}
+
+/* Bloco acima é para configurações e padronizações gerais 
+Bastante útil e indicado realizar isso pois a depender do navegador
+as configurações bases podem ser diferentes uma das outras. Assim
+criamos já uma padronização independentemente do navegador, e 
+assim trabalhamos sobre esas configurações definidas*/
+
+
+body {
+    /* Configuração do CORPO do site */
+    background: #19191a;
+}
