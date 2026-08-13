@@ -1,0 +1,62 @@
+<!-- Conteúdo do projeto de cafeteria -->
+
+<!-- Importante destacar que haverá MUITOS comentários ao decorrer do código. 
+Seu viés é obviamente para servirem como anotações de estudo e referência. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Criando o link de conexão de onde vai puxar o CSS para todo o site. DEVE ser posto no head -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Link que conecta ao site de onde a fonte do texto foi retirada -->
+
+    <title>Projeto Cafeteria</title>
+</head>
+
+<body>
+
+    <!-- Tag semântica para o cabeçalho/header da página. Existem esses tipos de tags para representar diferentes seções da página.
+    Utilização da class para facilitar na hora de encontra-las no CSS -->
+    <header class="header">
+
+        <section>
+            <!-- Section é uma tag que serve para separar e agrupar elementos dentro do HTML que são de um mesmo assunto -->
+
+            <!-- Logo da cafeteria. A utilização da # faz a página retornar para o início -->
+            <a href="#home" class="logo">
+                <img width="70" height="70" src="..\Imagens\Icon_Coffee_4.png">
+            </a>
+
+            <!-- Barra de navegação. A # também é uma marcação de id. Neste caso, ao clicar, viajamos até o id correspondente -->
+            <nav class="barra_navegacao">
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#avaliacoes">Avaliações</a>
+                <a href="#endereco">Endereço</a>
+            </nav>
+
+            <!-- Ícones de navegação. Foi utilizado o site icons8.com para obtenção das imagens -->
+            <div class="icons">
+                <img width="30" height="30" src="https://img.icons8.com/deco-glyph/30/ffffff/shopping-cart.png"
+                    alt="shopping-cart" />
+                <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png"
+                    alt="search--v1" />
+            </div>
+        </section>>
+
+    </header>
+
+</body>
+
+</html>

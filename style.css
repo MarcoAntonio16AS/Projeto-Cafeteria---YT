@@ -1,0 +1,132 @@
+/* --------------------------------------------------------------- */
+/* Sessão destinada unicamente para o CSS da página. Cada elemento
+apresenta seu próprio CSS e estilo, mas é possível estabelecer
+configurações padrões à todos os elementos */
+
+/* Bloco com * é para configurações e padronizações gerais 
+Bastante útil e indicado realizar isso pois a depender do navegador
+as configurações bases podem ser diferentes uma das outras. Assim
+criamos já uma padronização independentemente do navegador, e 
+assim trabalhamos sobre esas configurações definidas*/
+
+/* Bloco com o :root serve para criar variáveis dentro do css
+dessa forma deixando muito mais fácil padronizar os estilos 
+e arrumar ou modificar caso assim seja necessário. Para isso usa-se
+-- antes do nome da variável */
+/* --------------------------------------------------------------- */
+
+:root {
+    --cor-principal: #d3ad7f;
+    /* Cor principal do site */
+    --preto: #13131a;
+    /* Cor preta do site */
+    --background: #010103;
+    /* Cor de fundo do site */
+    --borda: 0.1rem solid rgba(255, 255, 255, 0.3);
+    /* Cor da borda do site */
+    --tamanho_fonte: 10px;
+    /* Tamanho da fonte do site */
+    --cor_texto: #fff;
+    /* Cor do texto do site */
+}
+
+* {
+    margin: 0;
+    /* Margem */
+    padding: 0;
+    /* Preenchimento */
+    outline: 0;
+    /* Linha abaixo de links */
+    border: none;
+    /* Bordas */
+    text-decoration: none;
+    /* Decoração de Texto */
+    text-transform: capitalize;
+    /*Capitalize = Maiúscula seguida de minúsculas*/
+    transition: 0.2s linear;
+    /*Efeito de transição na hora de passar o mouse sobre os icons, e o tempo*/
+}
+
+
+body {
+    /* Configuração do CORPO do site */
+    background: var(--background);
+}
+
+section {
+    /* Configuração das SEÇÕES do site. Visando também manter uma padronização */
+    padding: 1rem 2rem;
+    /* Preenchimento superior e inferior de 3rem e lateral de 2rem */
+    margin: 0 auto;
+    /* Margem automática para centralizar o conteúdo. */
+    max-width: 1100px;
+    /* Define a largura máxima da seção */
+}
+
+.header {
+    /* O . serve para indicar que é uma classe */
+    position: fixed;
+    /* Fixa nosso header no topo da página */
+    top: 0;
+    /* Define a posição do topo */
+    left: 0;
+    /* Define a posição da esquerda */
+    right: 0;
+    /* Define a posição da direita */
+    border-bottom: var(--borda);
+    /* Define a borda inferior do header */
+    z-index: 99;
+    /* Define a posição do header em relação aos outros elementos. 
+    Quanto maior o valor, mais acima estará */
+}
+
+.header section {
+    display: flex;
+    /* Define o display como flex. Transforma em uma caixa flexível. 
+    Os itens se organizam de forma inteligente, como em linha ou coluna */
+    align-items: center;
+    /* Alinha os itens no centro */
+    justify-content: space-between;
+    /* Distribui os itens de forma que fiquem espaçados entre si */
+    padding-top: 1.5rem;
+    /* Define o preenchimento superior */
+    padding-bottom: 0.25rem;
+    /* Define o preenchimento inferior */
+}
+
+.barra_navegacao a {
+    margin: 0 1rem;
+    /* Define a margem superior e inferior como 0 e lateral como 1rem */
+    font-size: 1.15rem;
+    /* Define o tamanho da fonte */
+    color: var(--cor_texto);
+    /* Define a cor da fonte */
+    font-family: "Merriweather", serif;
+    /* Define a fonte do texto */
+}
+
+.barra_navegacao a:hover {
+    color: var(--cor-principal);
+    /* Define a cor da fonte ao passar o mouse */
+    border-bottom: 0.1rem solid var(--cor-principal);
+    /* Define a borda inferior ao passar o mouse */
+    font-size: 1.2rem;
+    /* Define o tamanho da fonte ao passar o mouse */
+}
+
+.icons img {
+    margin: 1rem;
+    /* Define a margem superior e inferior como 0 e lateral como 1rem */
+    cursor: pointer;
+    /* Define o cursor como pointer ao passar o mouse */
+}
+
+.icons img:hover {
+    color: var(--cor-principal);
+    /* Define a cor da fonte ao passar o mouse */
+    border-bottom: 0.1rem solid var(--cor-principal);
+    /* Define a borda inferior ao passar o mouse */
+    transform: scale(1.1);
+    /* Define o tamanho da imagem ao passar o mouse. Usando a propriedade transform
+    e scale trabalho diretamente com a escala pré-definida anteriormente */
+}
