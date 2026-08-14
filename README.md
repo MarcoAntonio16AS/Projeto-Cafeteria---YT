@@ -50,3 +50,4 @@ Importante destacar que este é um projeto guiado através de um vídeo no YouTu
 - [Guia de Formatação README.md ¹](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Guia de Formatação README.md ²](https://docs.document360.com/docs/pt/how-to-center-align-the-text-in-markdown)<br>
 - [Site para os icons](https://fonts.google.com/icons)
+- [Site para os vídeos](https://pixabay.com/)
