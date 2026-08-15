@@ -1,53 +1,114 @@
-<div align="center"><h1>Site de Cafeteria - YouTube</h1></div>
+<div align="center">
 
-Muito prazer, me chamo Marco Antônio e sou estudante de ADS, atualmente em meu terceiro semestre de graduação. Hoje trago e disponibilizo à todos vocês a realização e criação de um site de cafeteria! 
+# ☕ Site de Cafeteria
 
-Este projeto não possui cunho divulgatório, mas sim, apenas uma disponibilização de um estudo realizado por fora da faculdade, de iniciativa própria, com o viés de auto aprimoramento, estudo e retenção de conhecimentos! Durante sua leitura, irá se deparar com os seguintes tópicos:
+</div>
 
+Muito prazer, me chamo Marco Antônio e sou estudante de **Análise e Desenvolvimento de Sistemas (ADS)**, atualmente em meu terceiro semestre de graduação.
+
+Este repositório apresenta o desenvolvimento de um **Site de Cafeteria**, realizado por iniciativa própria como forma de estudo, autoaprimoramento e retenção de conhecimentos adquiridos durante minha formação.
+
+O projeto encontra-se em **constante evolução**, tendo como objetivo inicial a construção do Front-end voltado para computadores. Posteriormente, pretendo estudar e implementar sua adaptação para diferentes dispositivos, como celulares e tablets, e futuramente dar continuidade ao projeto através do desenvolvimento de um Back-end. O objetivo final, **um projeto Full Stack** desenvolvido por mim.
+
+Durante a leitura deste README, serão apresentados os seguintes tópicos:
+
+- **Introdução, Linguagens e Ferramentas utilizadas**
+- **Objetivos por detrás do projeto**
+- **Processo de desenvolvimento e evolução**
+- **Bibliografia utilizada**
+
+Agradeço desde já pela visita ao projeto! Comentários e críticas construtivas sobre pontos em que posso melhorar serão sempre muito bem-vindos.
+
+---
 <br>
+<div align="center">
 
-  + **Introdução, Linguagens e Ferramentas utilizadas:**
-  + **Objetivos por detrás:**
-  + **Links da bibliografia utilizada para o desenvolvimento:**
-
+## Introdução, Linguagens e Ferramentas Utilizadas
 <br>
-Agradeço a todos pela compreensão, e quaisquer comentários e críticas construtivas de onde posso melhorar, ou como, serão sempre muito bem vindas! Novamente, agradeço a compreensão e boa leitura à todos!
+</div>
 
-----------------------------------------------------------------------------------------------
+O objetivo inicial deste projeto é a criação e desenvolvimento de um **Site de Cafeteria**, utilizando tecnologias voltadas principalmente para o desenvolvimento Front-end.
 
-<div align="center"><h2>Introdução, Linguagens e Ferramentas Utilizadas</h2></div>
+As tecnologias e ferramentas utilizadas nesta etapa são:
 
-O objetivo deste projeto trata-se da criação e desenvolvimento de um **Site de Cafeteria**. 
-Para isso, foram se utilizados algumas linguagens de programação e ferramentas de desenvolvimento para tal finalidade, sendo elas:
+- HTML5
+- CSS
+- JavaScript
+- Git
+- GitHub
 
-+ HTML5 
-+ CSS
-+ JavaScript
-+ NODE.js
-+ Git
-+ GitHub
+O projeto também possui uma perspectiva de evolução para outras tecnologias e ferramentas conforme seu desenvolvimento avance.
 
-----------------------------------------------------------------------------------------------
-
-<div align="center"><h2>Objetivos por Detrás:</h2></div>
-
-Importante destacar que este é um projeto guiado através de um vídeo no YouTube, ensinando o passo a passo para o desenvolvimento e criação deste site! Vale ressaltar que este projeto **não é de minha autoria**, uma vez que seus objetivos são:
-
+---
 <br>
+<div align="center">
 
-> Conhecer os processos de desenvolvimento para a criação de um site!
+## Objetivos por detrás do projeto
+<br>
+</div>
 
-> Utilização e familiarização no uso de linguagens de programção e ferramentas distintas, visando somá-las para a construção de um mesmo projeto! 
+É importante destacar que a **primeira versão do projeto foi desenvolvida de maneira guiada através de um vídeo no YouTube**, utilizado como ponto de partida para compreender a estrutura e os processos envolvidos na criação de um site.
 
-> Adquirir habilidades e insights quanto a forma de pensar, usar as ferramentas disponíveis, criar e desenvolver essa ideia e objetivo, desde sua fundação, obejtivo, codificação, até enfim chegar à sua conclusão e entrega/deploy.
+A utilização dessa referência tem como finalidade servir como um **primeiro impulso para o aprendizado**, permitindo posteriormente realizar modificações, experimentar diferentes soluções e desenvolver ideias próprias dentro do projeto.
 
-> Colocar a mão na massa para a construção do projeto, ainda que seja, inicialmente, de maneira guiada. Sendo um primeiro passo para muitos de outros projetos que serão desenvolvidos, com maior maturidade.
+Entre os principais objetivos estão:
 
-----------------------------------------------------------------------------------------------
-<div align="center"><h2>Bibliografia Utilizada:</h2></div>
+> **Conhecer os processos de desenvolvimento envolvidos na criação de um site.**
 
-- [Vídeo Youtube](https://youtu.be/v1jVqO6dx9A?si=8dbFBtJBpMztOYrI)
-- [Guia de Formatação README.md ¹](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Guia de Formatação README.md ²](https://docs.document360.com/docs/pt/how-to-center-align-the-text-in-markdown)<br>
-- [Site para os icons](https://fonts.google.com/icons)
-- [Site para os vídeos](https://pixabay.com/)
+> **Utilizar e me familiarizar com diferentes linguagens e ferramentas, compreendendo como podem ser utilizadas em conjunto para a construção de um mesmo projeto.**
+
+> **Adquirir habilidades e insights sobre a forma de pensar, utilizar as ferramentas disponíveis e transformar uma ideia em uma aplicação.**
+
+> **Colocar em prática os conhecimentos adquiridos, inicialmente de maneira guiada, utilizando o projeto como primeiro passo para trabalhos futuros com maior autonomia e maturidade.**
+
+Além disso, o código possui diversos **comentários e anotações de estudo**, utilizados para registrar o funcionamento de determinadas estruturas, propriedades e conceitos encontrados durante o desenvolvimento.
+
+Dessa maneira, o próprio código também funciona como uma forma de material de consulta e retenção dos conhecimentos estudados.
+
+---
+<br>
+<div align="center">
+
+## Processo de Desenvolvimento e Evolução
+<br>
+</div>
+
+O projeto está sendo desenvolvido de maneira progressiva, com cada etapa servindo também como oportunidade de aprendizado. Cada etapa estará demarcada com [] no intuito de registrar em que fase o projeto se encontra, e quais faltam até sua completude.
+<br><br>
+
+### 🖥️ Etapa atual — Front-end para Desktop [...]
+
+A primeira etapa possui foco na criação e conclusão do layout do site para **computadores**, buscando finalizar sua estrutura, aparência e funcionamento antes de iniciar a adaptação para outros dispositivos.
+<br><br>
+
+### 📱 Próximas etapas — Responsividade []
+
+Após a conclusão da primeira versão para computadores, será iniciado o estudo e implementação de **Responsive Web Design**, realizando alterações no CSS para adaptar o projeto a diferentes tamanhos de tela.
+
+A intenção é trabalhar progressivamente na adaptação para:
+
+- Dispositivos mobile; []
+- Tablets; []
+- Diferentes tamanhos de tela. []
+
+Essa etapa também terá como objetivo utilizar o próprio projeto como forma de aprendizado sobre responsividade e organização do CSS, realizando as alterações necessárias sem comprometer o funcionamento da versão anteriormente desenvolvida.
+<br><br>
+
+### ⚙️ Etapa futura — Back-end []
+
+Após a conclusão das etapas iniciais do Front-end e da responsividade, o projeto poderá evoluir para o desenvolvimento de um **Back-end**, ampliando suas funcionalidades e permitindo colocar em prática novos conhecimentos adquiridos ao longo da formação.
+
+Esta etapa será desenvolvida posteriormente, conforme a evolução do projeto e dos estudos, assim como o que será ou não implementado durante essa fase.
+
+---
+<br>
+<div align="center">
+
+## Bibliografia Utilizada
+<br>
+</div>
+
+- [Vídeo utilizado como referência para o desenvolvimento](https://youtu.be/v1jVqO6dx9A?si=8dbFBtJBpMztOYrI)
+- [Guia de Formatação README.md — GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Guia de Formatação README.md — Document360](https://docs.document360.com/docs/pt/how-to-center-align-the-text-in-markdown)
+- [Icons8 — Ícones utilizados no projeto](https://icons8.com/)
