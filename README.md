@@ -1,8 +1,4 @@
-<div align="center">
-
-# ☕ Site de Cafeteria
-
-</div>
+<div align="center"> # ☕ Site de Cafeteria </div>
 
 Muito prazer, me chamo Marco Antônio e sou estudante de **Análise e Desenvolvimento de Sistemas (ADS)**, atualmente em meu terceiro semestre de graduação.
 
