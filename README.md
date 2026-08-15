@@ -10,11 +10,13 @@ Este repositório apresenta o desenvolvimento de um **Site de Cafeteria**, reali
 O projeto encontra-se em **constante evolução**, tendo como objetivo inicial a construção do Front-end voltado para computadores. Posteriormente, pretendo estudar e implementar sua adaptação para diferentes dispositivos, como celulares e tablets, e futuramente dar continuidade ao projeto através do desenvolvimento de um Back-end. O objetivo final, **um projeto Full Stack** desenvolvido por mim.
 
 Durante a leitura deste README, serão apresentados os seguintes tópicos:
+<br><br>
 
 - **Introdução, Linguagens e Ferramentas utilizadas**
 - **Objetivos por detrás do projeto**
 - **Processo de desenvolvimento e evolução**
 - **Bibliografia utilizada**
+<br><br>
 
 Agradeço desde já pela visita ao projeto! Comentários e críticas construtivas sobre pontos em que posso melhorar serão sempre muito bem-vindos.
 
@@ -51,6 +53,7 @@ O projeto também possui uma perspectiva de evolução para outras tecnologias e
 A utilização dessa referência tem como finalidade servir como um **primeiro impulso para o aprendizado**, permitindo posteriormente realizar modificações, experimentar diferentes soluções e desenvolver ideias próprias dentro do projeto.
 
 Entre os principais objetivos estão:
+<br><br>
 
 > **Conhecer os processos de desenvolvimento envolvidos na criação de um site.**
 
@@ -60,6 +63,7 @@ Entre os principais objetivos estão:
 
 > **Colocar em prática os conhecimentos adquiridos, inicialmente de maneira guiada, utilizando o projeto como primeiro passo para trabalhos futuros com maior autonomia e maturidade.**
 
+<br><br>
 Além disso, o código possui diversos **comentários e anotações de estudo**, utilizados para registrar o funcionamento de determinadas estruturas, propriedades e conceitos encontrados durante o desenvolvimento.
 
 Dessa maneira, o próprio código também funciona como uma forma de material de consulta e retenção dos conhecimentos estudados.
