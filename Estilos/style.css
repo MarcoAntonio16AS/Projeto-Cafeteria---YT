@@ -13,12 +13,18 @@ assim trabalhamos sobre esas configurações definidas*/
 dessa forma deixando muito mais fácil padronizar os estilos 
 e arrumar ou modificar caso assim seja necessário. Para isso usa-se
 -- antes do nome da variável */
+
+/* Quando colocamos o CSS dentro da linha de código, chamamos de inline
+e este possui uma hierarquia de prioridade se considerado o dentro da 
+tag style, localizado no head. Isso é a útil a depender do que você
+deseja realizar, ainda que isso seja praticamente uma gambiarra,
+portanto, em termos de clean code, não é recomendado */
 /* --------------------------------------------------------------- */
 
 :root {
     --cor-principal: #d3ad7f;
     /* Cor principal do site */
-    --preto: #13131a;
+    --preto: #090909;
     /* Cor preta do site */
     --background: #010103;
     /* Cor de fundo do site */
@@ -78,6 +84,7 @@ section {
     z-index: 99;
     /* Define a posição do header em relação aos outros elementos. 
     Quanto maior o valor, mais acima estará */
+    background: var(--preto);
 }
 
 .header section {
@@ -129,4 +136,62 @@ section {
     transform: scale(1.1);
     /* Define o tamanho da imagem ao passar o mouse. Usando a propriedade transform
     e scale trabalho diretamente com a escala pré-definida anteriormente */
+}
+
+.home.container {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* vh = viewport height -> 100% da altura da janela */
+    max-width: 1100px;
+}
+
+.container-foto {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    background-size: cover;
+    max-width: content;
+    margin-top: 0.5rem;
+}
+
+.container-sobreposicao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+    z-index: 5;
+}
+
+.container-sobreposicao h3 {
+    position: relative;
+    color: var(--cor_texto);
+    font-size: 1.5rem;
+    text-align: top, left;
+    margin-bottom: 1rem;
+    z-index: 5;
+}
+
+.container-sobreposicao p {
+    color: var(--cor_texto);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    z-index: 5;
+}
+
+/*Lembrar de na próxima vez transformar cada pequeno componente em algo próprio....*/
+
+.btn {
+    /* Antes de arrumar o CSS do botão de pedido, importante já estar com a classe .home-container arrumada */
+    background: var(--cor-principal);
+    color: var(--cor_texto);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+
 }

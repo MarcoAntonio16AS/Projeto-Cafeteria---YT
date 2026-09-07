@@ -7,7 +7,7 @@ Muito prazer, me chamo Marco Antônio e sou estudante de **Análise e Desenvolvi
 
 Este repositório apresenta o desenvolvimento de um **Site de Cafeteria**, realizado por iniciativa própria como forma de estudo, autoaprimoramento e retenção de conhecimentos adquiridos durante minha formação.
 
-O projeto encontra-se em **constante evolução**, tendo como objetivo inicial a construção do Front-end voltado para computadores. Posteriormente, pretendo estudar e implementar sua adaptação para diferentes dispositivos, como celulares e tablets, e futuramente dar continuidade ao projeto através do desenvolvimento de um Back-end. O objetivo final, **um projeto Full Stack** desenvolvido por mim.
+O projeto encontra-se em **constante evolução**, tendo como objetivo inicial a construção do Front-end voltado para computadores. Posteriormente, pretendo estudar e implementar sua adaptação para diferentes dispositivos, como celulares e tablets, e futuramente dar continuidade ao projeto através do desenvolvimento de um Back-end. O objetivo final é **um projeto Full Stack** desenvolvido por mim.
 
 Durante a leitura deste README, serão apresentados os seguintes tópicos:
 <br><br>
@@ -97,6 +97,11 @@ A intenção é trabalhar progressivamente na adaptação para:
 Essa etapa também terá como objetivo utilizar o próprio projeto como forma de aprendizado sobre responsividade e organização do CSS, realizando as alterações necessárias sem comprometer o funcionamento da versão anteriormente desenvolvida.
 <br><br>
 
+### ⚛️ Etapa futura - Introduzindo React
+
+Essa etapa consistirá em uma "refatoração" do código do site em HTML, CSS e JS puro para dentro do Framework React, visando adquirir conhecimento prático da ferramenta de trabalho, modificando o código e introduzindo uma ferramenta muito utilizada atualmente para desenvolvimento front-end.
+<br><br> 
+
 ### ⚙️ Etapa futura — Back-end []
 
 Após a conclusão das etapas iniciais do Front-end e da responsividade, o projeto poderá evoluir para o desenvolvimento de um **Back-end**, ampliando suas funcionalidades e permitindo colocar em prática novos conhecimentos adquiridos ao longo da formação.
@@ -115,3 +120,4 @@ Esta etapa será desenvolvida posteriormente, conforme a evolução do projeto e
 - [Guia de Formatação README.md — GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Guia de Formatação README.md — Document360](https://docs.document360.com/docs/pt/how-to-center-align-the-text-in-markdown)
 - [Icons8 — Ícones utilizados no projeto](https://icons8.com/)
+- [Pixabay - Vídeos utilizados no projeto](https://pixabay.com/pt/videos/search/caf%C3%A9/)

@@ -9,32 +9,29 @@ Seu viés é obviamente para servirem como anotações de estudo e referência. 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Estilos/style.css">
     <!-- Criando o link de conexão de onde vai puxar o CSS para todo o site. DEVE ser posto no head -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- Link que conecta ao site de onde a fonte do texto foi retirada -->
-
     <title>Projeto Cafeteria</title>
 </head>
 
 <body>
-
-    <!-- Tag semântica para o cabeçalho/header da página. Existem esses tipos de tags para representar diferentes seções da página.
-    Utilização da class para facilitar na hora de encontra-las no CSS -->
+    <!---------------HEADER--------------->
     <header class="header">
+        <!-- Tag semântica para o cabeçalho/header da página. Existem esses tipos de tags para representar diferentes seções da página.
+    Utilização da class para facilitar na hora de encontra-las no CSS -->
 
         <section>
             <!-- Section é uma tag que serve para separar e agrupar elementos dentro do HTML que são de um mesmo assunto -->
 
             <!-- Logo da cafeteria. A utilização da # faz a página retornar para o início -->
             <a href="#home" class="logo">
-                <img width="70" height="70" src="./Imagens/Icon_Coffee_4.png">
+                <img width="70" height="70" src="../Imagens/Icon_Coffee_4.png">
             </a>
 
             <!-- Barra de navegação. A # também é uma marcação de id. Neste caso, ao clicar, viajamos até o id correspondente -->
@@ -53,9 +50,45 @@ Seu viés é obviamente para servirem como anotações de estudo e referência. 
                 <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png"
                     alt="search--v1" />
             </div>
+            <!-- Criar um segundo ícone de navegação mas com a cor principal do site para colocar em sobreposição e 
+             ajeitar utilizando o JavaScript -->
+
         </section>
 
     </header>
+    <!---------------HEADER--------------->
+
+    <!----------------HOME---------------->
+
+    <div class="home-container">
+        <!-- HTML para a página central/home do site -->
+
+        <background-image class="container-foto">
+            <!-- Imagem de fundo da página -->
+            <img src="../Imagens/CoffeeHome.jpeg" alt="Imagem de café">
+
+        </background-image>
+
+        <section id="home">
+
+            <div class="container-sobreposicao">
+                <!-- Container para o texto que vai ficar sobre a imagem -->
+
+                <h3>MOMENTOS ÚNICOS OU DE ATENÇÃO SEMPRE EXIGEM UMA XÍCARA DE CAFÉ DA MELHOR QUALIDADE</h3>
+
+                <p>Bem-vindo à nossa cafeteria! Aqui, você encontrará o melhor café da região, preparado com
+                    ingredientes de qualidade e servido em um ambiente acolhedor para tornar seus momentos mais
+                    especiais.</p>
+
+                <a href="#" class="btn">Peça o seu agora!</a>
+                <!-- Botão com link para levar até a seção de pedidos -->
+            </div>
+
+        </section>
+
+    </div>
+
+    <!----------------HOME---------------->
 
 </body>
 
